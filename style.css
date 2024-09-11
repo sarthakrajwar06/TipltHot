@@ -1,0 +1,195 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url('background.png'); /* Set the background image here */
+  background-size: cover; /* Cover the entire body */
+  background-position: center; /* Center the image */
+  background-attachment: fixed; /* Make the background stay fixed while scrolling */
+  background-repeat: no-repeat; /* Prevent repeating of background image */
+  color: #c6d0f5; /* Text color */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Header Section */
+header {
+  background-color: rgba(0, 0, 0, 0.8); /* Slight transparency so the background image can be seen */
+  padding: 15px 30px;
+  color: #f9971f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo-container {
+  display: flex;
+  align-items: center; /* Aligns logo and text vertically */
+  gap: 10px; /* Adjust the gap between logo and text */
+}
+
+header .logo {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+header img.logo { /* Adjust as needed */
+  height: 80px;
+}
+
+header nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li a {
+  color: #f9971f;
+  padding: 10px;
+}
+
+header nav ul li a:hover {
+  color: #9d6b2e;
+  border-radius: 5px;
+}
+
+#login\/signin {
+  background-color: #f9971f;
+  border-radius: 5px;
+  color: #0d0b0b;
+
+}
+#login\/signin:hover{
+  background-color: #9d6b2e;
+  text-decoration: underline;
+}
+
+
+main {
+  background-image: url('background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:left;
+  align-items:initial;
+  padding: 20px;
+  color: #ffffff;
+}
+main > h1{
+  background-color:rgba(0, 0, 0, 0.3) ;
+  color: aqua; 
+  font-size: 30px;
+  padding: 15px;
+}
+
+
+.subheading {
+  font-size: 48px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #69eb7a, #fe066d);
+
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+
+  color: transparent;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  margin: 20px 0;
+  animation: fadeIn 2s ease-in-out;
+}
+main >  pre{
+  background-color:rgba(0, 0, 0, 0.3) ;
+  color: #fe9b06;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:23px;
+  font-weight:500;
+}
+/* Card */
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  justify-content: center;
+  }
+  
+.card-container {
+  display: flex;
+  gap: 20px;
+  background-color: #3d3d40e6;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.card {
+  background-color: #444;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+  width: 400px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.step-icon {
+  background-color: #737373;
+  color: #fff;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 15px auto;
+}
+
+.icon {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 1rem;
+}
+
+#Fire {
+  height: 245px;
+}
+
+
+/* Footer */
+footer {
+  background-color: rgba(34, 33, 33, 0.8); /* Surface 0 */
+  color: #ffffff; /* Rosewater */
+  text-align:center;
+  justify-content:end;
+  padding: 20px;
+}
+
+.footer-links a {
+  color: #ffffff; /* Pink */
+}
+
+footer > p{
+  display: inline;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
